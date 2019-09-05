@@ -3,6 +3,7 @@ CLI Client for https://www.enzoldhazam.hu
 
 ## Usage:
 
+```
 [user@host enzoldhazam-cli]$ ./enzoldhazam.sh login
 Username: myloginuser
 Password: myhiddenpassword
@@ -10,6 +11,7 @@ Password: myhiddenpassword
 Thermostat ID: 1.7
 Temperature: 25
 [user@host enzoldhazam-cli]$
+```
 
 ## Features:
 
