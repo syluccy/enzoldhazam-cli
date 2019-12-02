@@ -7,16 +7,19 @@ CLI Client for https://www.enzoldhazam.hu
 [user@host enzoldhazam-cli]$ ./enzoldhazam.sh login
 Username: myloginuser
 Password: myhiddenpassword
+Bathroom thermostat ID: 1.7
+...
+[user@host enzoldhazam-cli]$ ./enzoldhazam.sh addttemp
+Bathroom temperature: 25
+...
 [user@host enzoldhazam-cli]$ ./enzoldhazam.sh settemp
-Thermostat ID: 1.7
-Temperature: 25
 [user@host enzoldhazam-cli]$
 ```
 
 ## Features:
 
-* Set target temperature for all the managed thermostats
-* Username and password will be saved after login to ~/.enzoldhazam/
+* Set target temperature for all the managed thermostats individually
+* Username, password, thermostat ids will be saved after login to ~/.enzoldhazam/
 
 ## Known issues:
 
